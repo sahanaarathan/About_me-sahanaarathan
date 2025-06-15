@@ -1,0 +1,219 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me - Home</title>
+    <style>
+    .social-icons {
+        display: flex;
+        gap: 1em;
+        margin-top: 1em;
+        align-items: center;
+    }
+    .social-icons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: #be9524;
+        color: #333;
+        font-size: 1.3em;
+        transition: background 0.2s, color 0.2s;
+        text-decoration: none;
+    }
+    .social-icons a:hover {
+        background: #ff9800;
+        color: #fff;
+    }
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin: 2em 0 1em 0;
+        gap: 0.5em;
+    }
+    .pagination a, .pagination span {
+        display: inline-block;
+        padding: 0.5em 1em;
+        color: #1d1c1c;
+        background: #eee;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.2s, color 0.2s;
+    }
+    .pagination a:hover {
+        background: #ff9800;
+        color: #fff;
+    }
+    .pagination .active-page {
+        background: #ff9800;
+        color: #fff;
+        pointer-events: none;
+    }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #222;
+        }
+        nav {
+            background: #333;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.5em;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        nav a.active, nav a:hover {
+            color: #ff9800;
+        }
+        header {
+            background: #fff;
+            padding: 2em 0 1em 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-top: 0.5em;
+        }
+        main {
+            max-width: 900px;
+            margin: 2em auto;
+            background: #fff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 2em;
+            position: relative;
+            padding: 2em;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff9800;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: static;
+        }
+            
+        .about h2 {
+            margin-top: 0;
+            color: #ff9800;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #333;
+            color: #fff;
+            margin-top: 2em;
+        }
+        @media (max-width: 700px) {
+            .about {
+                flex-direction: column;
+                text-align: center;
+            }
+            main {
+                padding: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <p class="subtitle">Discover more about me, my work, and how to get in touch!</p>
+    </header>
+    <main>
+        <section class="about">
+            <img src="images/profile01.jpg" alt="My Profile Photo" class="profile-img">
+            <div>
+                <h2>About Me</h2>
+                <p>Hello! I'm Sahanaa Rathan, a passionate web developer and technology enthusiast. I love creating unique and engaging web experiences using HTML, CSS, and JavaScript, and I also have experience with frameworks like React, Node.js, and Python.</p>
+                <p>
+                    My journey into web development began during my high school years, where I was fascinated by how websites worked and how they could be built from scratch. Over the years, I have honed my skills in front-end technologies, always striving to stay updated with the latest trends and best practices in the industry.
+                </p>
+                <p>
+                    I enjoy transforming ideas into reality through code. Whether it's designing a responsive layout, optimizing performance, or adding interactive features, I find joy in every step of the development process. My attention to detail and commitment to clean, maintainable code help me deliver high-quality results.
+                </p>
+                <p>
+                    In addition to web development, I am also interested in user experience (UX) and user interface (UI) design. I believe that a great website is not just about functionality, but also about providing an intuitive and enjoyable experience for users. I often collaborate with designers and other developers to create seamless digital products.
+                </p>
+                <p>
+                    I have worked on a variety of projects, ranging from personal blogs and portfolios to small business websites and web applications. Each project has taught me something new and challenged me to grow as a developer. I am always eager to take on new challenges and expand my skill set.
+                </p>
+                <p>
+                    Continuous learning is a core part of my philosophy. I regularly participate in online courses, attend webinars, and read articles to keep my knowledge fresh. I also contribute to open-source projects and enjoy being part of the developer community.
+                </p>
+                <p>
+                    When I'm not coding, you can find me exploring new technologies, reading tech blogs, or experimenting with creative design ideas. I also enjoy mentoring aspiring developers and sharing my knowledge through tutorials and blog posts.
+                </p>
+                <p>
+                    My technical toolkit includes HTML5, CSS3, JavaScript (ES6+), React, and a bit of backend with Node.js and Express. I am comfortable working with version control systems like Git and have experience deploying websites using various hosting platforms.
+                </p>
+                <p>
+                    I am a firm believer in the power of teamwork and effective communication. Collaborating with others not only leads to better solutions but also makes the development process more enjoyable. I value feedback and am always open to learning from others.
+                </p>
+                <p>
+                    Outside of technology, I have a keen interest in photography and digital art. I love capturing moments and expressing creativity through visuals, which often inspires my web design work.
+                </p>
+                <p>
+                    Thank you for taking the time to learn more about me. If you'd like to see some of my work, please check out the Projects page. If you want to connect or collaborate, feel free to reach out through the Contact page. I'm always excited to meet new people and explore new opportunities!
+                
+                <p>I am committed to building a carreer that I am proud of.</p>
+                
+                <p>On this website, you'll find information about my projects and how to contact me. Thanks for visiting!</p>
+                <div class="social-icons">
+                    
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm15.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v5.61z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.916 4.916 0 0 0-8.38 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.542.929-.856 2.01-.857 3.17 0 2.188 1.115 4.117 2.823 5.254a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.058 0 14.009-7.514 14.009-14.009 0-.213-.005-.425-.014-.636A10.012 10.012 0 0 0 24 4.557z"/>
+                        </svg>
+                    
+                    
+                    <a href="mailto:your@email.com" target="_blank" aria-label="Email">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 13.065L.015 6.5A2.003 2.003 0 0 1 2 4h20a2.003 2.003 0 0 1 1.985 2.5L12 13.065zm11.985-1.13V20a2.003 2.003 0 0 1-2 2H2a2.003 2.003 0 0 1-2-2V11.935l11.293 6.5a1 1 0 0 0 1.414 0l11.293-6.5z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <nav class="pagination" aria-label="Page navigation">
+            <a href="index.html" class="active-page">1</a>
+            <a href="projects.html">2</a>
+            <a href="contact.html">3</a>
+        </nav>
+    </main>
+    <footer>
+        &copy; 2025 [Sahanaa Rathan]
+    </footer>
+</body>
+</html>
