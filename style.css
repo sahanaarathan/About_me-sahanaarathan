@@ -1,0 +1,28 @@
+body {
+      background-image: url(images/windows-365-windows-11-3d-background-gradient-background-2048x2048-8634.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      border: 1.5px solid;
+      
+    }
+    h2, h3{
+      text-align: center;
+      color: #080cdd;
+      font-family: 'press start 2P', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    p {
+        border-style: inset;
+        border-color: rgb(4, 3, 22);
+        background-color: aliceblue transparent;
+      color: #b63232;
+      font-family: consolas, 'Courier New', Courier, monospace;
+      font-style: italic;
+      font-weight: bold;
+      text-shadow: #111111;
+      margin: 10px auto;
+      width: 80%;
+      box-shadow: #111111 0px 0px 10px;
+    }

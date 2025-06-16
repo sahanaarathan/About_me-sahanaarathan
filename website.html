@@ -1,4 +1,4 @@
-<!-- index.html -->
+<!-- FIRST WEBSITE -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +7,11 @@
     <style>
     .social-icons {
         display: flex;
+        justify-content: center;
         gap: 1em;
         margin-top: 1em;
         align-items: center;
-    }
+    }  
     .social-icons a {
         display: inline-flex;
         align-items: center;
@@ -139,8 +140,8 @@
 <body>
     <nav>
         <a href="index.html" class="active">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="projects.html" onclick="window.location.href='projects.html'; return false;">Projects</a>
+        <a href="contact.html" onclick="window.location.href='contact.html'; return false;">Contact</a>
     </nav>
     <header>
         <h1>Welcome to My Personal Website</h1>
@@ -148,7 +149,7 @@
     </header>
     <main>
         <section class="about">
-            <img src="images/profile01.jpg" alt="My Profile Photo" class="profile-img">
+            <img src="profile01.jpg" alt="My Profile Photo" class="profile-img">
             <div>
                 <h2>About Me</h2>
                 <p>Hello! I'm Sahanaa Rathan, a passionate web developer and technology enthusiast. I love creating unique and engaging web experiences using HTML, CSS, and JavaScript, and I also have experience with frameworks like React, Node.js, and Python.</p>
@@ -169,9 +170,6 @@
                 </p>
                 <p>
                     When I'm not coding, you can find me exploring new technologies, reading tech blogs, or experimenting with creative design ideas. I also enjoy mentoring aspiring developers and sharing my knowledge through tutorials and blog posts.
-                </p>
-                <p>
-                    My technical toolkit includes HTML5, CSS3, JavaScript (ES6+), React, and a bit of backend with Node.js and Express. I am comfortable working with version control systems like Git and have experience deploying websites using various hosting platforms.
                 </p>
                 <p>
                     I am a firm believer in the power of teamwork and effective communication. Collaborating with others not only leads to better solutions but also makes the development process more enjoyable. I value feedback and am always open to learning from others.
